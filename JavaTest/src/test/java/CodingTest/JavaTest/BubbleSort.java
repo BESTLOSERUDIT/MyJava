@@ -1,7 +1,7 @@
 package CodingTest.JavaTest;
 
 
-public class AppTest {
+public class BubbleSort {
      
 	 void bubbleSort(int arr[],int n)
 	     { 
@@ -32,7 +32,7 @@ public class AppTest {
 	      {  
 			int arr[]= {23,12,6,34,65,25,45,56,87,35};
 			int n=arr.length;			
-			AppTest bs=new AppTest();
+			BubbleSort bs=new BubbleSort();
 			bs.bubbleSort(arr,n);
 			System.out.println("Array in Sorted order");
 			bs.printArray(arr,n);
